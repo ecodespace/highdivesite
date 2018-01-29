@@ -1,0 +1,81 @@
+html {
+    background: #000;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #000;
+    color: #696969;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 2em 2em 0em;
+    font-family: "Century Gothic";
+}
+
+h1 {
+    font-style: italic;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 600;
+    color: #fbf150;
+    line-height: 1;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1;
+}
+
+h2 {
+    color: #696969;
+    font-weight: 200;
+}
+
+a {
+    color: #696969;
+    text-decoration: none;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+p {
+    color: #696969;
+    line-height: 1.3em;
+    margin: 0px;
+}
+
+samp {
+    display: none;
+}
+
+img {
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    border: 0px solid rgba(0, 0, 0, 0.12);
+    border-radius: 0px;
+    display: block;
+    max-width: 100%;
+}
+
+table {
+    border-spacing: 12px;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
